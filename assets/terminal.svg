@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 464" font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',Menlo,monospace" role="img" aria-label="Terminal animado de Miguel Fernandes Santos — Full Stack e DevOps: Java, Quarkus, Go, Flutter, Dart, Python e Docker">
+  <title>miguel@github: ~</title>
+  <defs>
+    <linearGradient id="gm" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="124" y2="96">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset=".55" stop-color="#39c5cf"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <pattern id="cells" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" rx="3" fill="#1c2431"/>
+    </pattern>
+    <filter id="sh" x="-5%" y="-5%" width="110%" height="112%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#010409" flood-opacity=".4"/>
+    </filter>
+    <clipPath id="c1"><rect id="r1" x="46" y="84" width="0" height="22"/></clipPath>
+    <clipPath id="c2"><rect id="r2" x="46" y="136" width="0" height="22"/></clipPath>
+    <clipPath id="c3"><rect id="r3" x="46" y="318" width="0" height="22"/></clipPath>
+  </defs>
+  <style>
+    text{font-size:15px;fill:#c9d1d9}
+    .p{fill:#3fb950;font-weight:700}
+    .cmd{fill:#e6edf3}
+    .dim{fill:#8b949e}
+    .cyan{fill:#58a6ff}
+    .white{fill:#f0f6fc;font-weight:700}
+    .lbl{fill:#39c5cf;font-weight:700}
+    .title{font-size:13px;fill:#8b949e}
+    .cur{fill:#3fb950}
+    .scene{animation:scene 28s linear infinite}
+    #r1{animation:t1 28s linear infinite}
+    #r2{animation:t2 28s linear infinite}
+    #r3{animation:t3 28s linear infinite}
+    #cur1{animation:v1 28s linear infinite,m1 28s linear infinite}
+    #cur2{animation:v2 28s linear infinite,m2 28s linear infinite}
+    #cur3{animation:v3 28s linear infinite,m3 28s linear infinite}
+    #cur5{animation:v5 28s linear infinite}
+    #cur5r{animation:blink 1.12s linear infinite}
+    .a786{animation:a786 28s linear infinite}
+    .a1036{animation:a1036 28s linear infinite}
+    .a1607{animation:a1607 28s linear infinite}
+    .a1679{animation:a1679 28s linear infinite}
+    .a1786{animation:a1786 28s linear infinite}
+    .a1893{animation:a1893 28s linear infinite}
+    .a2000{animation:a2000 28s linear infinite}
+    .a2107{animation:a2107 28s linear infinite}
+    .a2214{animation:a2214 28s linear infinite}
+    .a2643{animation:a2643 28s linear infinite}
+    .a3321{animation:a3321 28s linear infinite}
+    .a3500{animation:a3500 28s linear infinite}
+    @keyframes scene{0%,96.5%{opacity:1}99.5%,100%{opacity:0}}
+    @keyframes blink{0%,49%{opacity:1}50%,99%{opacity:0}100%{opacity:1}}
+    @keyframes t1{0%,2.857%{width:0;animation-timing-function:steps(6,end)}6.429%,100%{width:54px}}
+    @keyframes t2{0%,11.071%{width:0;animation-timing-function:steps(8,end)}14.643%,100%{width:72px}}
+    @keyframes t3{0%,27.143%{width:0;animation-timing-function:steps(16,end)}31.786%,100%{width:144px}}
+    @keyframes m1{0%,2.857%{transform:translateX(0);animation-timing-function:steps(6,end)}6.429%,100%{transform:translateX(54px)}}
+    @keyframes m2{0%,11.071%{transform:translateX(0);animation-timing-function:steps(8,end)}14.643%,100%{transform:translateX(72px)}}
+    @keyframes m3{0%,27.143%{transform:translateX(0);animation-timing-function:steps(16,end)}31.786%,100%{transform:translateX(144px)}}
+    @keyframes v1{0%,7.856%{opacity:1}7.857%,100%{opacity:0}}
+    @keyframes v2{0%,10.356%{opacity:0}10.357%,16.070%{opacity:1}16.071%,100%{opacity:0}}
+    @keyframes v3{0%,26.428%{opacity:0}26.429%,33.213%{opacity:1}33.214%,100%{opacity:0}}
+    @keyframes v5{0%,36.428%{opacity:0}36.429%,100%{opacity:1}}
+    @keyframes a786{0%,7.856%{opacity:0}7.857%,100%{opacity:1}}
+    @keyframes a1036{0%,10.356%{opacity:0}10.357%,100%{opacity:1}}
+    @keyframes a1607{0%,16.070%{opacity:0}16.071%,100%{opacity:1}}
+    @keyframes a1679{0%,16.785%{opacity:0}16.786%,100%{opacity:1}}
+    @keyframes a1786{0%,17.856%{opacity:0}17.857%,100%{opacity:1}}
+    @keyframes a1893{0%,18.928%{opacity:0}18.929%,100%{opacity:1}}
+    @keyframes a2000{0%,19.999%{opacity:0}20%,100%{opacity:1}}
+    @keyframes a2107{0%,21.070%{opacity:0}21.071%,100%{opacity:1}}
+    @keyframes a2214{0%,22.142%{opacity:0}22.143%,100%{opacity:1}}
+    @keyframes a2643{0%,26.428%{opacity:0}26.429%,100%{opacity:1}}
+    @keyframes a3321{0%,33.213%{opacity:0}33.214%,100%{opacity:1}}
+    @keyframes a3500{0%,34.999%{opacity:0}35%,100%{opacity:1}}
+  </style>
+
+  <!-- janela -->
+  <rect x="16" y="16" width="828" height="432" rx="12" fill="#0d1117" stroke="#30363d" filter="url(#sh)"/>
+  <rect x="16" y="16" width="828" height="42" rx="12" fill="#161b22"/>
+  <rect x="16" y="40" width="828" height="18" fill="#161b22"/>
+  <line x1="16" y1="58" x2="844" y2="58" stroke="#30363d"/>
+  <circle cx="40" cy="37" r="6.5" fill="#ff5f56"/>
+  <circle cx="62" cy="37" r="6.5" fill="#ffbd2e"/>
+  <circle cx="84" cy="37" r="6.5" fill="#27c93f"/>
+  <text class="title" x="430" y="42" text-anchor="middle">miguel@github: ~</text>
+
+  <g class="scene">
+    <!-- $ whoami -->
+    <text class="p" x="28" y="100">$</text>
+    <g clip-path="url(#c1)"><text class="cmd" x="46" y="100" textLength="54" lengthAdjust="spacing">whoami</text></g>
+    <rect id="cur1" class="cur" x="46" y="85" width="9" height="19"/>
+    <g class="a786">
+      <text class="white" x="46" y="126">miguel-fernandes-santos</text>
+      <text class="dim" x="271" y="126"># full stack · devops</text>
+    </g>
+
+    <!-- $ neofetch -->
+    <text class="p a1036" x="28" y="152">$</text>
+    <g clip-path="url(#c2)"><text class="cmd" x="46" y="152" textLength="72" lengthAdjust="spacing">neofetch</text></g>
+    <rect id="cur2" class="cur" x="46" y="137" width="9" height="19"/>
+
+    <g class="a1607" transform="translate(46,202)">
+      <rect width="124" height="96" fill="url(#cells)"/>
+      <g fill="url(#gm)">
+        <rect x="0" y="0" width="12" height="12" rx="3"/><rect x="14" y="0" width="12" height="12" rx="3"/><rect x="98" y="0" width="12" height="12" rx="3"/><rect x="112" y="0" width="12" height="12" rx="3"/>
+        <rect x="0" y="14" width="12" height="12" rx="3"/><rect x="14" y="14" width="12" height="12" rx="3"/><rect x="28" y="14" width="12" height="12" rx="3"/><rect x="84" y="14" width="12" height="12" rx="3"/><rect x="98" y="14" width="12" height="12" rx="3"/><rect x="112" y="14" width="12" height="12" rx="3"/>
+        <rect x="0" y="28" width="12" height="12" rx="3"/><rect x="14" y="28" width="12" height="12" rx="3"/><rect x="28" y="28" width="12" height="12" rx="3"/><rect x="42" y="28" width="12" height="12" rx="3"/><rect x="70" y="28" width="12" height="12" rx="3"/><rect x="84" y="28" width="12" height="12" rx="3"/><rect x="98" y="28" width="12" height="12" rx="3"/><rect x="112" y="28" width="12" height="12" rx="3"/>
+        <rect x="0" y="42" width="12" height="12" rx="3"/><rect x="14" y="42" width="12" height="12" rx="3"/><rect x="42" y="42" width="12" height="12" rx="3"/><rect x="56" y="42" width="12" height="12" rx="3"/><rect x="70" y="42" width="12" height="12" rx="3"/><rect x="98" y="42" width="12" height="12" rx="3"/><rect x="112" y="42" width="12" height="12" rx="3"/>
+        <rect x="0" y="56" width="12" height="12" rx="3"/><rect x="14" y="56" width="12" height="12" rx="3"/><rect x="56" y="56" width="12" height="12" rx="3"/><rect x="98" y="56" width="12" height="12" rx="3"/><rect x="112" y="56" width="12" height="12" rx="3"/>
+        <rect x="0" y="70" width="12" height="12" rx="3"/><rect x="14" y="70" width="12" height="12" rx="3"/><rect x="98" y="70" width="12" height="12" rx="3"/><rect x="112" y="70" width="12" height="12" rx="3"/>
+        <rect x="0" y="84" width="12" height="12" rx="3"/><rect x="14" y="84" width="12" height="12" rx="3"/><rect x="98" y="84" width="12" height="12" rx="3"/><rect x="112" y="84" width="12" height="12" rx="3"/>
+      </g>
+    </g>
+    <text class="white a1679" x="190" y="178">miguel@github</text>
+    <text class="dim a1786" x="190" y="204">-----------------------------</text>
+    <g class="a1893"><text class="lbl" x="190" y="230">role</text><text x="271" y="230">Full Stack · DevOps</text></g>
+    <g class="a2000"><text class="lbl" x="190" y="256">backend</text><text x="271" y="256">Java · Quarkus · Go</text></g>
+    <g class="a2107"><text class="lbl" x="190" y="282">mobile</text><text x="271" y="282">Flutter · Dart</text></g>
+    <g class="a2214"><text class="lbl" x="190" y="308">devops</text><text x="271" y="308">Docker · CI/CD · Linux</text></g>
+    <!-- $ ./contato (list) -->
+    <text class="p a2643" x="28" y="334">$</text>
+    <g clip-path="url(#c3)"><text class="cmd" x="46" y="334" textLength="144" lengthAdjust="spacing">./contato --list</text></g>
+    <rect id="cur3" class="cur" x="46" y="319" width="9" height="19"/>
+    <g class="a3321"><text class="lbl" x="46" y="360">linkedin</text><text class="cyan" x="190" y="360">linkedin.com/in/miguelfernandessantos</text></g>
+    <g class="a3500"><text class="lbl" x="46" y="386">email</text><text class="cyan" x="190" y="386">miguelfernandess277@gmail.com</text></g>
+
+    <!-- prompt final -->
+    <g id="cur5">
+      <text class="p" x="28" y="412">$</text>
+      <rect id="cur5r" class="cur" x="46" y="397" width="9" height="19"/>
+    </g>
+  </g>
+</svg>
