@@ -32,7 +32,9 @@ o caminho inteiro).
     <img alt="Cobrinha comendo minhas contribuições" src="https://raw.githubusercontent.com/MiguelFernandesSantos/MiguelFernandesSantos/output/github-snake.svg">
   </picture>
 
+  <!-- Reativar quando o secret METRICS_TOKEN for criado e o workflow Metrics rodar:
   <img src="./github-metrics.svg" width="860" alt="Métricas do GitHub, atualizadas diariamente" />
+  -->
 </div>
 
 ## `$ ./contato --all`
